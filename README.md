@@ -14,6 +14,12 @@ confluent local services start
 confluent local services stop
 ```
 
+- To clean up all data and topic
+
+```sh
+confluent local services destroy
+```
+
 
 ```sh
 prateekashtikar@Prateeks-MacBook-Pro Prateek % confluent local services start
