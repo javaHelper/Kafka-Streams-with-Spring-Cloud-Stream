@@ -34,3 +34,6 @@ kafka-console-consumer --bootstrap-server localhost:9092 --topic users --from-be
 ```
 
 <img width="1303" alt="Screenshot 2022-08-19 at 12 18 39 AM" src="https://user-images.githubusercontent.com/54174687/185471821-04de961f-b231-4615-9a5b-07ff34eee8d4.png">
+
+<img width="1335" alt="Screenshot 2022-08-19 at 12 21 56 AM" src="https://user-images.githubusercontent.com/54174687/185471976-88f8e5b2-ff7c-41bb-b8bc-007b741adfaf.png">
+
