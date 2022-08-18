@@ -20,5 +20,6 @@ STR2699:{"InvoiceNumber":{"string":"77764124"},"CreatedTime":{"long":16608510614
 
 <img width="1344" alt="Screenshot 2022-08-19 at 1 03 47 AM" src="https://user-images.githubusercontent.com/54174687/185479292-5f3a575e-3cfa-464f-99c5-17b782bd7048.png">
 
-<img width="1303" alt="Screenshot 2022-08-19 at 12 18 39 AM" src="https://user-images.githubusercontent.com/54174687/185479315-6000b665-ce03-4fff-b382-b3f1a7c5cb97.png">
+<img width="1307" alt="Screenshot 2022-08-19 at 1 06 22 AM" src="https://user-images.githubusercontent.com/54174687/185479631-ad067aca-0b67-48ad-87e4-96fbd820e73c.png">
+
 
