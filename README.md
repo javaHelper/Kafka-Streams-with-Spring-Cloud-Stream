@@ -2,6 +2,19 @@
 
 # Installing Confluent Kafka
 
+- Start Confluent Kafka
+
+```sh
+confluent local services start
+```
+
+- Stop Confluent Kafka
+
+```sh
+confluent local services stop
+```
+
+
 ```sh
 prateekashtikar@Prateeks-MacBook-Pro Prateek % confluent local services start
 The local commands are intended for a single-node development environment only,
