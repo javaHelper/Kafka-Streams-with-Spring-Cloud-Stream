@@ -22,4 +22,3 @@ STR2699:{"InvoiceNumber":{"string":"77764124"},"CreatedTime":{"long":16608510614
 
 <img width="1303" alt="Screenshot 2022-08-19 at 12 18 39 AM" src="https://user-images.githubusercontent.com/54174687/185479315-6000b665-ce03-4fff-b382-b3f1a7c5cb97.png">
 
-<img width="1335" alt="Screenshot 2022-08-19 at 12 21 56 AM" src="https://user-images.githubusercontent.com/54174687/185479318-27445170-4755-4f0e-804a-1398cc1d7db3.png">
