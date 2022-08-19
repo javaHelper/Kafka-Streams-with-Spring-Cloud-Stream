@@ -17,7 +17,7 @@ confluent local services stop
 - To clean up all data and topic
 
 ```sh
-confluent local services destroy
+confluent local destroy
 ```
 
 
