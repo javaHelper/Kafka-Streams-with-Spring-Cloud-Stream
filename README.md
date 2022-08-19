@@ -60,3 +60,8 @@ prateekashtikar@Prateeks-MacBook-Pro Prateek % kafka-console-consumer --topic te
 {"name":"Prateek Ashtikar", "age": 34, "gender": "Male"}
 {"name":"Laxmi Ashtikar", "age": 63, "gender": "Female"}
 ```
+--------
+
+<img width="450" alt="Screenshot 2022-08-19 at 2 46 19 PM" src="https://user-images.githubusercontent.com/54174687/185587169-46042ad6-88a3-45ae-8bdf-c9c19722c2c0.png">
+
+
