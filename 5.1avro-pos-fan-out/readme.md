@@ -4,6 +4,9 @@ first start the `avro-pos-gen` and then start tge `avro-pos-fan-out` - make sure
 
 Input Topic - `avro-pos-topic` and out is `loyalty-topic` and `hadoop-sink-topic`.
 
+<img width="502" alt="Screenshot 2022-08-19 at 12 22 42 PM" src="https://user-images.githubusercontent.com/54174687/185560986-b254238b-7674-497a-a5a2-8470589cc110.png">
+
+
 <img width="1310" alt="Screenshot 2022-08-19 at 12 16 20 PM" src="https://user-images.githubusercontent.com/54174687/185559875-f54b9031-d440-44c8-92b3-53c2ff94a16a.png">
 
 <img width="1366" alt="Screenshot 2022-08-19 at 12 15 16 PM" src="https://user-images.githubusercontent.com/54174687/185560067-6cbf6ef6-c575-4f46-b08c-65a721a337ce.png">
