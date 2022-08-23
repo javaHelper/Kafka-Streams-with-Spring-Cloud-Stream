@@ -10,5 +10,5 @@ spring:
 
 application:
   configs:
-    invoice.count: 15
+    invoice.count: 60
     topic.name: avro-pos-topic
