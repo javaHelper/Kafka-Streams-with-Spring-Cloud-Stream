@@ -5,10 +5,11 @@ spring:
       bootstrap-servers: localhost:9092
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+      # By Default Json deserializer includes type info to message header
       properties:
         spring.json.add.type.headers: false
 
 application:
   configs:
-    invoice.count: 15
+    invoice.count: 60
     topic.name: pos-topic
