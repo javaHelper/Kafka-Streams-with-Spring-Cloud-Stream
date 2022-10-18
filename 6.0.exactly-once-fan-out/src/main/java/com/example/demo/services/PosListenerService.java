@@ -31,7 +31,7 @@ public class PosListenerService {
                 .mapValues(v -> recordBuilder.getNotification(v));
 
         hadoopRecordKStream.foreach((k, v) -> log.info(String.format("== Hadoop Record:- Key: %s, Value: %s", k, v)));
-        notificationKStream.foreach((k, v) -> log.info(String.format("== Notification:- Key: %s, Value: %s", k, v)));
+        notificationKStream.foreach((k, v) -> log.info(String.format("<==> Notification:- Key: %s, Value: %s", k, v)));
 
         hadoopRecordKStream.to("hadoop-sink-topic");
         notificationKStream.to("loyalty-topic");
