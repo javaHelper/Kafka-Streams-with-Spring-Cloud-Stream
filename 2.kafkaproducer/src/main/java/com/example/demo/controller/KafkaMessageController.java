@@ -16,7 +16,7 @@ public class KafkaMessageController {
     @PostMapping("/post")
     public String sendMessageToKafka(@RequestBody IncomingMessage message) {
 
-        kafkaProducerService.sendMessage(message.getTopic(),message.getKey(), message.getValue());
+        kafkaProducerService.sendMessage(message.getTopic(), message.getKey(), message.getValue());
         return String.format("Success - Message for key %s is sent to Kafka Topic: %s",
                 message.getKey(), message.getTopic());
     }
