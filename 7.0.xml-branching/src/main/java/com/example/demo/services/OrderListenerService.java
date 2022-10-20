@@ -32,7 +32,7 @@ public class OrderListenerService {
     @StreamListener("xml-input-channel")
     @SendTo({"india-orders-channel", "abroad-orders-channel"})
     public KStream<String, Order>[] process(KStream<String, String> input) {
-
+        System.out.println("-----------------------------------------------");
         input.foreach((k, v) -> log.info(String.format("Received XML Order Key: %s, Value: %s", k, v)));
 
         KStream<String, OrderEnvelop> orderEnvelopKStream = input.map((key, value) -> {
@@ -50,7 +50,6 @@ public class OrderListenerService {
                     log.error("Missing destination City");
                     orderEnvelop.setOrderTag(AppConstants.ADDRESS_ERROR);
                 }
-
             } catch (JAXBException e) {
                 log.error("Failed to Unmarshal the incoming XML");
                 orderEnvelop.setOrderTag(AppConstants.PARSE_ERROR);
