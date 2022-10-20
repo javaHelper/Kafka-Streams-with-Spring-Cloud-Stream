@@ -1,3 +1,6 @@
+
+# Type below two lines first wait for the output and then hit below line
 Hello World
 Hello Kafka
+
 Hello Kafka Streams

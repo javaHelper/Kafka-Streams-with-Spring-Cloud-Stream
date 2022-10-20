@@ -17,7 +17,7 @@ public class WordListenerService {
 
     @StreamListener("words-input-channel")
     public void process(KStream<String, String> input) {
-
+        System.out.println("------------------");
         KStream<String, String> wordStream = input
                 .flatMapValues(value -> Arrays.asList(value.toLowerCase().split(" ")));
 
