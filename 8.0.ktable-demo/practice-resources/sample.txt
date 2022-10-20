@@ -1,3 +1,5 @@
+
+# Type below three messages on kafka producer and then start the app
 HDFCBANK:2120
 HDFCBANK:2150
 HDFCBANK:2180
