@@ -30,6 +30,6 @@ public class EmployeeStreamListener {
                         (k, v, aggV) -> recordBuilder.aggregate(v, aggV),
                         (k, v, aggV) -> recordBuilder.subtract(v, aggV)
                 ).toStream()
-                .foreach((k, v) -> log.info("Key = " + k + " Value = " + v));
+                .foreach((k, v) -> log.info("Key = " + k + ", Value = " + v));
     }
 }
